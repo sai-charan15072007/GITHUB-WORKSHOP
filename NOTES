@@ -1,0 +1,79 @@
+GIT - global information transfer
+definition of git: used to push or pull the project source code into the git platform
+definition of github: a git's built-in platform that is used to store the project folders and can collaborate with project developers / terminal
+
+git config user.name "user_name"
+git config user.email "user_email" 
+
+-- used to config the users details in git configuration
+
+git init - initialization of git
+
+
+
+
+
+ls - list contents/files of folder
+ls -al -list hidden contents of folder
+touch file_name - used to create file
+
+vi file_name or vim file_name || linux command to enter or edit the file
+then to insert new content:
+i for insert, so select i which shows Insert on the terminal
+then enter the content
+then click 'esc' to exit the entering mode
+
+:wq - to save the file
+cat - to show the content in that file
+ex: cat file_name
+shows the list of content
+
+
+
+
+**************** order *****************
+touch dev1
+
+--creates a file with dev1 as file_name
+
+cat dev1
+
+-- used to show the data or information present in the dev1 file
+
+vi dev1 || vim dev1 
+
+-- takes to other platform like unix that can edit the platform
+
+then press 'i' to enter Insert Mode, and enter the text you needed
+
+first line of terminal mode or git bash terminal mode entering or editing file
+
+-- after entering the data or information or content, press
+-- 'ESC' button to exit the entering or editing mode
+
+:wq 
+
+-- this is used to save the edited file dev1
+-- then it returns back to the git bash terminal
+
+cat dev1
+
+-- shows the content present in the dev1 file_name which is
+-- "first line of terminal mode or git bash terminal mode entering or editing file"
+
+-- this is the overall order to edit the folder or file
+
+
+master - is the branch
+
+git status
+
+--  shows the status of the file / folder
+
+git add . || git add dev1
+
+-- to add all files or folders, we use '.' || to add only specific files or folders, we use 'git add file_name or folder_name
+
+git commit -m "Message"
+
+-- used to add a message (-m) what we edited or changed the file/folder
